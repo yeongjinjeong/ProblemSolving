@@ -8,7 +8,7 @@ using namespace std;
 
 
 int main(){
-    int arr[101][101]={0};
+    int arr[1001][1001]={0};
     int N;
 
     cin >> N;
@@ -25,8 +25,8 @@ int main(){
     
     vector<int>cnt;
     cnt.resize(N+1,0);
-    for(int i=0;i<101;i++){
-        for(int j=0;j<101;j++){
+    for(int i=0;i<1001;i++){
+        for(int j=0;j<1001;j++){
 //            cout << arr[i][j] ;
             if(arr[i][j]!=0){
                 cnt[arr[i][j]]+=1;
