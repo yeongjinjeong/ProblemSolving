@@ -6,7 +6,7 @@
 #include <deque>
 
 using namespace std;
-int N;
+
 char arr[100][100]={0};
 char arr2[100][100]={0}; //색약인 사람이 보이는 판
 int ydir[4]={1,-1,0,0};
