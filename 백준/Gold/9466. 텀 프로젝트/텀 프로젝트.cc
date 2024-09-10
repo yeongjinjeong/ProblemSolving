@@ -1,49 +1,55 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
+int N;
+int Level;
+vector<int>arr;
+vector<int>visited;
+vector<int>completed;
+void dfs(int start) {
+	visited[start] = 1;
+	int next = arr[start];
 
-vector<int> parent, visited, done;
-int cnt;
+	if (!visited[next]) {
+		dfs(next);
+	}
+	else if (!completed[next]) {
+		for (int i = next; i != start; i = arr[i]) Level--;
+		//i==start인 경우 처리
+		Level--;
+	}
 
-void dfs(int x) {
-    visited[x] = 1;
-    int next = parent[x];
-    
-    if (!visited[next]) {
-        dfs(next);
-    } else if (!done[next]) {
-        for (int i = next; i != x; i = parent[i]) cnt--;
-        cnt--;
-    }
-    
-    done[x] = 1;
+	completed[start] = 1;
 }
-
 int main() {
-    int T;
-    cin >> T;
-    while (T--) {
-        int n;
-        cin >> n;
+	int T;
+	cin >> T;
+	for (int tc = 0; tc < T; tc++) {
 
-        parent.resize(n + 1);
-        visited.assign(n + 1, 0);
-        done.assign(n + 1, 0);
-        cnt = n;
+		cin >> N;
+		Level = N;
+		arr.clear();
+		visited.clear();
+		completed.clear();
+		arr.resize(N + 1, 0);
+		visited.resize(N + 1, 0);
+		completed.resize(N + 1, 0);
 
-        for (int i = 1; i <= n; i++) {
-            cin >> parent[i];
-        }
+		for (int i = 1; i <= N; i++) {
+			cin >> arr[i];
+		}
 
-        for (int i = 1; i <= n; i++) {
-            if (!visited[i]) {
-                dfs(i);
-            }
-        }
+		for (int i = 1; i <= N; i++) {
+			if (visited[i] == 1)continue;
+			dfs(i);
 
-        cout << cnt << '\n';
-    }
+		}
 
-    return 0;
+		cout << Level << "\n";
+
+
+	}
+
 }
