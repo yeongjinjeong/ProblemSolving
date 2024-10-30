@@ -9,7 +9,7 @@ vector<vector<int>>link;
 vector<int>cycle;
 vector<int>visited;
 
-//최소거리 확인하는 코드
+//최소거리 확인하는 코드 -> 생각해보니까 bfs로 해도 될 듯
 void notcircle(int st,int pre) {
 	
 	for (int i = 0; i < link[st].size(); i++) {
