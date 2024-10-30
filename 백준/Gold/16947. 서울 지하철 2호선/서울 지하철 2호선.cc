@@ -9,30 +9,18 @@ vector<vector<int>>link;
 vector<int>cycle;
 vector<int>visited;
 
-int bfs(int st) {
-	queue<pair<int,int>> q;
-	q.push({ st,0 });
-	vector<int>visited2(N + 1,0);
-	while (!q.empty()) {
-		pair<int,int> now = q.front(); q.pop();
-		visited2[now.first] = 1;
-		for (int i = 0; i < link[now.first].size(); i++) {
-			int next = link[now.first][i];
-			int dist = now.second + 1;
-			if (visited[next] == 1) continue;
-			if (cycle[next] == 1) return dist;
-			q.push({ next,dist });
-			
-		}
-	}
-
-}
-
+//최소거리 확인하는 코드
 void notcircle(int st,int pre) {
+	
 	for (int i = 0; i < link[st].size(); i++) {
 		int next = link[st][i];
+		//이전 노드로 다시 가는 거 방지
 		if (next == pre)continue;
+
+		//사이클이면 거리를 최신화 필요 X
 		if (cycle[next] == 0)continue;
+
+		//사이클이 아닌 경우에 현재 최소거리에서 1추가해서 저장
 		if (cycle[next] == 1) {
 			cycle[next] = cycle[st] + 1;
 			notcircle(next, st);
@@ -40,6 +28,7 @@ void notcircle(int st,int pre) {
 	}
 }
 
+//사이클인지 아닌지 구분해주는 함수
 void dfs(int st,int now, int level) {
 	
 	for (int i = 0; i < link[now].size(); i++) {
@@ -69,6 +58,8 @@ int main() {
 	cycle.resize(N + 1, 1);
 	visited.resize(N + 1, 0);
 
+
+	//연결관계 만들어주기
 	for (int i = 0; i < N; i++) {
 		int st, en;
 		cin >> st >> en;
@@ -76,6 +67,7 @@ int main() {
 		link[en].push_back(st);
 	}
 
+	//사이클인지 아닌지 구분 => 사이클이면 0, 사이클이 아니면 1
 	for (int i = 0; i < N + 1; i++) {
 		if (cycle[i] == 0)continue;
 		visited.clear();
@@ -83,12 +75,9 @@ int main() {
 		visited[i] = 1;
 		dfs(i, i, 0);
 	}
-	//for (int i = 1; i < N + 1; i++) {
-	//	cout << cycle[i] << ' ';
-	//}
 
-	//cout << endl;
-
+	//사이클인 경우에서 함수 호출
+	
 	for (int i = 1; i < N + 1; i++) {
 		int res;
 		if (cycle[i] == 0) {
