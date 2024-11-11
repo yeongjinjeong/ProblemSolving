@@ -7,22 +7,23 @@ int bcnt = 0;
 int arr[128][128];
 
 void dfs(int row, int col, int len) {
-	if (len == 0) return;
 	int gizun = arr[row][col];
-	bool flag = false;
+	bool cut = false;
 	for (int i = row; i < row + len; i++) {
 		for (int j = col; j < col + len; j++) {
-			if (arr[i][j] != gizun) flag = true;			
+			if (arr[i][j] != gizun) cut = true;			
 		}
 	}
-	if (flag) {
+	if (cut) {
 		dfs(row, col, len / 2);
 		dfs(row + len / 2, col, len / 2);
 		dfs(row, col + len / 2, len / 2);
 		dfs(row + len / 2, col + len / 2, len / 2);
 	}
-	if (flag == false && gizun) bcnt++;
-	if(flag == false && gizun == 0) wcnt++;
+	else {
+		if (gizun) bcnt++;
+		else wcnt++;
+	}
 }
 
 int main() {	
