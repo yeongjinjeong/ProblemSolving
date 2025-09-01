@@ -12,6 +12,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0062-unique-paths) |
 ## Recursion
 |  |
 | ------- |
@@ -37,4 +38,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0036-valid-sudoku) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
