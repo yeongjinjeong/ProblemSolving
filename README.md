@@ -57,4 +57,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0004-median-of-two-sorted-arrays) |
+## String
+|  |
+| ------- |
+| [0006-zigzag-conversion](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0006-zigzag-conversion) |
 <!---LeetCode Topics End-->
