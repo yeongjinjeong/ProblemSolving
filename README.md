@@ -21,6 +21,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0036-valid-sudoku) |
 ## Two Pointers
@@ -48,4 +49,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0062-unique-paths) |
+## Binary Search
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0004-median-of-two-sorted-arrays) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
