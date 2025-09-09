@@ -12,6 +12,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0002-add-two-numbers) |
+| [0007-reverse-integer](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0007-reverse-integer) |
 | [0062-unique-paths](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0062-unique-paths) |
 ## Recursion
 |  |
