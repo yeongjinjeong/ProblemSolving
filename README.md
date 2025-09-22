@@ -15,6 +15,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0007-reverse-integer](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0062-unique-paths) |
+| [0189-rotate-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0189-rotate-array) |
 ## Recursion
 |  |
 | ------- |
@@ -27,10 +28,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0011-container-with-most-water](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0048-rotate-image) |
+| [0189-rotate-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0189-rotate-array) |
 ## Two Pointers
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0011-container-with-most-water) |
+| [0189-rotate-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0189-rotate-array) |
 ## Greedy
 |  |
 | ------- |
