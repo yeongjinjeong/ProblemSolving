@@ -26,6 +26,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0001-two-sum](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0011-container-with-most-water) |
+| [0033-search-in-rotated-sorted-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0189-rotate-array) |
@@ -61,6 +62,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0033-search-in-rotated-sorted-array) |
 ## Divide and Conquer
 |  |
 | ------- |
