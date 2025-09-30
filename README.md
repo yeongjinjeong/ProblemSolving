@@ -8,6 +8,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0002-add-two-numbers) |
+| [0061-rotate-list](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0061-rotate-list) |
 ## Math
 |  |
 | ------- |
@@ -34,6 +35,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0011-container-with-most-water) |
+| [0061-rotate-list](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0061-rotate-list) |
 | [0189-rotate-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0189-rotate-array) |
 ## Greedy
 |  |
