@@ -30,6 +30,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0033-search-in-rotated-sorted-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0049-group-anagrams) |
 | [0189-rotate-array](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0189-rotate-array) |
 ## Two Pointers
 |  |
@@ -47,6 +48,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0001-two-sum](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0049-group-anagrams) |
 ## Matrix
 |  |
 | ------- |
@@ -74,8 +76,13 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0006-zigzag-conversion](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0006-zigzag-conversion) |
+| [0049-group-anagrams](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0049-group-anagrams) |
 ## Sliding Window
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/yeongjinjeong/ProblemSolving/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
