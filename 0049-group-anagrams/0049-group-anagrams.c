@@ -13,34 +13,35 @@ char*** groupAnagrams(char** strs, int strsSize, int* returnSize, int** returnCo
         return (*(char*)a - *(char*)b);
     }
 
-    // 각 문자열의 정렬된 키 생성
-    char **keys = (char**)malloc(sizeof(char*) * strsSize);
+    // 각 문자열의 정렬하여 저장
+    char **sorted_str = (char**)malloc(sizeof(char*) * strsSize);
     for (int i = 0; i < strsSize; i++) {
         int len = strlen(strs[i]);
-        keys[i] = (char*)malloc(len + 1);
-        strcpy(keys[i], strs[i]);
-        qsort(keys[i], len, sizeof(char), cmpChar);
+        sorted_str[i] = (char*)malloc(len + 1);
+        strcpy(sorted_str[i], strs[i]);
+        qsort(sorted_str[i], len, sizeof(char), cmpChar);
     }
 
-    // used 배열을 동적 할당으로 변경
+    // 그룹에 포함 되었는지 표시
     int *used = (int*)calloc(strsSize, sizeof(int));
 
-    // 결과 배열 초기화
+    // 결과 배열
     char ***result = (char***)malloc(sizeof(char**) * strsSize);
     *returnColumnSizes = (int*)malloc(sizeof(int) * strsSize);
     int groupCount = 0;
 
     for (int i = 0; i < strsSize; i++) {
+        //각 그룹의 첫번째 문자열 등록
         if (used[i]) continue;
-
         result[groupCount] = (char**)malloc(sizeof(char*) * strsSize);
         int count = 0;
         result[groupCount][count++] = strs[i];
         used[i] = 1;
 
+        //이후 정렬된 값이 같은 것들을 그룹에 등록
         for (int j = i + 1; j < strsSize; j++) {
             if (used[j]) continue;
-            if (strcmp(keys[i], keys[j]) == 0) {
+            if (strcmp(sorted_str[i], sorted_str[j]) == 0) {
                 result[groupCount][count++] = strs[j];
                 used[j] = 1;
             }
@@ -54,8 +55,8 @@ char*** groupAnagrams(char** strs, int strsSize, int* returnSize, int** returnCo
 
     // 메모리 해제
     for (int i = 0; i < strsSize; i++)
-        free(keys[i]);
-    free(keys);
+        free(sorted_str[i]);
+    free(sorted_str);
     free(used);
 
     return result;
